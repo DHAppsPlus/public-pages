@@ -91,3 +91,20 @@ footer {
 }
 footer .bar { justify-content: space-between; }
 footer a { color: var(--muted); }
+
+figure { margin: 24px 0; }
+figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+figcaption { color: var(--muted); font-size: 0.95rem; margin-top: 8px; }
+
+blockquote {
+  margin: 16px 0;
+  padding: 14px 16px;
+  background: var(--bg-soft);
+  border-left: 4px solid var(--navy);
+}
